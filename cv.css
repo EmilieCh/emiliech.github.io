@@ -1,0 +1,219 @@
+@font-face
+{
+	font-family: "mono";
+	src:url("monofonto.ttf") format("truetype");
+}
+
+@font-face
+{
+	font-family: "bandar";
+	src: url("BandarRegular.ttf") format("truetype");
+}
+
+#baniereaccueil
+{
+	display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#titre_principal
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#titre_principal h1
+{
+	font-family: "bandar",Arial,serif;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin: 0 0 0 10px;
+	color: #ef8091;
+}
+
+#titre_principal h2
+{
+	font-family: "bandar",Arial,serif;
+	font-size: 1.1em;
+	margin-top: 0px;
+	font-weight: normal;
+}
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+}
+
+nav li
+{
+	margin-right: 15px;
+}
+
+nav a
+{
+	font-size: 1.3em;
+	color: #ef8091;
+	padding-bottom: 3px;
+	text-decoration: none; 
+	font-family: "bandar", Arial, serif;
+}
+
+nav a:hover
+{
+	color: #A40847;
+	border-bottom: 3px solid #A40847;
+}
+
+#logo
+{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+
+#logo img
+{
+	width: 60px;
+	height: 60px;
+}
+
+#ma-photo
+{
+	flex-basis: 330px;
+	text-align: center;
+	padding: 15px;
+}
+
+#ma-photo img
+{
+	max-width: 300px;
+	clip-path: ellipse(50% 40%);
+}
+
+body
+{
+	font-family: "mono", Arial, Serif;
+	max-width: 1004px;
+	margin: auto;
+	padding-bottom: 30px;
+}
+h1
+{
+	color: #f13180;
+}
+
+header p
+{
+	color:black;
+}
+
+#en-tete
+{
+	display: flex;
+}
+
+#moi
+{
+	text-align: left;
+	font-size: 35px;
+	padding-left: 15px;
+}
+
+#formation
+{
+	padding: 20px;
+}
+
+#formation h2
+{
+	color: #f13180;
+}
+
+#experience-pro h2
+{
+	color: #f13180;
+}
+
+section
+{
+	display: flex;
+}
+
+article
+{
+	background-color: #f13180;
+	padding: 15px;
+	flex-basis: 330px;
+}
+
+article h2
+{
+	color: white;
+}
+
+#coordonnées h2
+{
+	text-align: center;
+}
+
+#coordonnées p
+{
+	color: white;
+}
+
+.icon
+{
+	width: 20px;
+	height: 20px;
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#connaissances
+{
+	text-align: center;
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+
+#aligner
+{
+	text-align: left;
+	margin: auto;
+}
+
+#compétences h2
+{
+	text-align: center;
+}
+
+#compétences p
+{
+	color: white;
+	padding-left: 10px;
+}
+
+#loisir h2
+{
+	text-align: center;
+}
+
+#loisir p
+{
+	color: white;
+	padding-left: 10px;
+}
+
+#experience-pro
+{
+	padding: 20px;
+}
+
+span.rose
+{
+	color: #f13180;
+}
